@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Shadows Into Light', cursive;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: right;
+}
+.logo{
+    float: left;
+    margin: 5px 10px;
+    height: 50px;
+    width: 50px;
+}
+.navtitle{
+    position: absolute;
+    left: 50%;
+    color: goldenrod;
+    text-transform: uppercase;
+    padding: 30px;
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    color: goldenrod;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 30px 30px;
+    padding: 10px;
+    font-size: x-large;
+}
+nav ul li:hover{
+    color: rgb(206, 255, 58);
+}
+nav ul li:active{
+    color: whitesmoke;
+}
+main{
+    width: 100%;
+    height: 500px;
+}
+.hero-section{
+    background-image: url(/img/hero\ section\ pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-text{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(172, 123, 0);
+    margin: 0px;
+    padding: 150px;
+    font-size: xx-large;
+}
+.hero-text p{
+    text-align: center;
+    color: rgb(172, 123, 0);
+}
+.container{
+    height: 150%;
+    text-align: center;
+    background-color:  rgba(144, 238, 144, 0.316);
+}
+.menu{
+    text-align: center;
+    font-size: x-large;
+}
+.home-pic{
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.map{
+    padding: 20px;
+    margin: 20px;
+}
+footer{
+    background-color:green ;
+    height: 100px;
+}
+.footer-content{
+    text-align: center;
+    margin: 1px;
+    color: goldenrod;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+.icons{
+    padding: 30px;
+    color: green;
+}
